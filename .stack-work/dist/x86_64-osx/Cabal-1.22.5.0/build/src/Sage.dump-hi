@@ -1,0 +1,378 @@
+
+==================== FINAL INTERFACE ====================
+2016-08-26 00:54:24.048323 UTC
+
+interface parse_2FlZuVjNcM648ms5omIPPi:Sage 7103
+  interface hash: d7653e74e5f2408653a0ad61d842a86b
+  ABI hash: 566ef53a1d0816770b6af9449b16bebc
+  export-list hash: c7b74849ff8eb561da7c716feac8f918
+  orphan hash: d1dd032bf9291237d36ed91bac669a21
+  flag hash: 4c0a7b65a6dddbc4161c2e2bfabe3dc3
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Sage.asterik
+  Sage.caret
+  Sage.comma
+  Sage.commandLookUp
+  Sage.commandLookUpArgs
+  Sage.createSage
+  Sage.forwardSlash
+  Sage.insertAsterik
+  Sage.insertAsterikHelper
+  Sage.leftBracket
+  Sage.leftParen
+  Sage.one
+  Sage.rightBracket
+  Sage.rightParen
+  Sage.sageCommandMap
+  Sage.sageCommandMapArgs
+  Sage.sageDerive
+  Sage.sageFrac
+  Sage.sageIntegral
+  Sage.sageLog
+  Sage.sageMatrix
+  Sage.sageRoot
+module dependencies:
+package dependencies: HaTeX-3.17.0.2@HaTeX_IZKTvXm97te1FoXjuFGoGa
+                      QuickCheck-2.8.2@Quick_6TxL5Cx3o2p0HsyT59KWiD
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59 ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0 loop-0.3.0@loop_1839SNCA0WGH7fKTWBST7w
+                      matrix-0.3.5.0@matri_87lu5PzzZxmGIKY6pKIrX1
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      parsec-3.1.11@parse_AtBt9uDOS2NCyWnucTHV3y
+                      pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      random-1.1@rando_9Kgekc9yEaLHLNUuw6paWL template-haskell-2.10.0.0
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      tf-random-0.5@tfran_1eLmkn3WUnC8NZpPuDLGKF
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+import  -/  HaTeX-3.17.0.2@HaTeX_IZKTvXm97te1FoXjuFGoGa:Text.LaTeX 29ce23292af277023498d40a591890a5
+import  -/  HaTeX-3.17.0.2@HaTeX_IZKTvXm97te1FoXjuFGoGa:Text.LaTeX.Base.Parser 4a611391d2906d3f4cf469fa8f2a58af
+import  -/  HaTeX-3.17.0.2@HaTeX_IZKTvXm97te1FoXjuFGoGa:Text.LaTeX.Base.Syntax e1c77f0decb82b1d58ff78bc8dda9572
+import  -/  base-4.8.2.0:Data.Char c8f827952d4111ae2e47c0b105217cdb
+import  -/  base-4.8.2.0:Data.String c2d7fed27a27fee276c179af07290091
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.Unicode cdf84fc3abbaf34ba6b6645291cef991
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  base-4.8.2.0:System.Environment ba6e36000c8274703cf7786fbe8d0f6c
+import  -/  containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base c921f79770a215e3f4c72c747cb6a28a
+import  -/  containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Strict 38dbeb81d05bf1712b3f681a33723b19
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text b53ae191632883b10562be5cbaa0b22b
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Internal d9b6b9a9dd535595b612aea5738b7466
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show 081cc243e944015e37c793c3b0ebfefd
+2e35bdee5c0d224c57e3181864bcfe7c
+  $sfromList ::
+    [([GHC.Types.Char], a)] -> Data.Map.Base.Map [GHC.Types.Char] a
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ @ a ds :: [([GHC.Types.Char], a)] ->
+                 case ds of wild {
+                   [] -> Data.Map.Base.Tip @ [GHC.Types.Char] @ a
+                   : ds1 ds2
+                   -> case ds1 of wild1 { (,) kx x ->
+                      case ds2 of wild2 {
+                        []
+                        -> case x of x1 { DEFAULT ->
+                           case kx of dt { DEFAULT ->
+                           Data.Map.Base.Bin
+                             @ [GHC.Types.Char]
+                             @ a
+                             1
+                             dt
+                             x1
+                             (Data.Map.Base.Tip @ [GHC.Types.Char] @ a)
+                             (Data.Map.Base.Tip @ [GHC.Types.Char] @ a) } }
+                        : ipv ipv1
+                        -> case ipv of wild3 { (,) ky ds3 ->
+                           case GHC.Classes.$fOrd[]_$s$ccompare1 kx ky of wild4 {
+                             DEFAULT
+                             -> case x of x0 { DEFAULT ->
+                                case kx of dt { DEFAULT ->
+                                Sage.$sfromList1
+                                  @ a
+                                  (Data.Map.Base.Bin
+                                     @ [GHC.Types.Char]
+                                     @ a
+                                     1
+                                     dt
+                                     x0
+                                     (Data.Map.Base.Tip @ [GHC.Types.Char] @ a)
+                                     (Data.Map.Base.Tip @ [GHC.Types.Char] @ a))
+                                  wild2 } }
+                             GHC.Types.LT
+                             -> case x of x0 { DEFAULT ->
+                                case kx of dt { DEFAULT ->
+                                Sage.$wpoly_go4
+                                  @ a
+                                  1
+                                  (Data.Map.Base.Bin
+                                     @ [GHC.Types.Char]
+                                     @ a
+                                     1
+                                     dt
+                                     x0
+                                     (Data.Map.Base.Tip @ [GHC.Types.Char] @ a)
+                                     (Data.Map.Base.Tip @ [GHC.Types.Char] @ a))
+                                  wild2 } } } } } } }) -}
+cc8be69ba5fee3204731fa2a78c604e2
+  $sfromList1 ::
+    Data.Map.Base.Map [GHC.Types.Char] a1
+    -> [([GHC.Types.Char], a1)]
+    -> Data.Map.Base.Map [GHC.Types.Char] a1
+  {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
+71b7e6497cc09dedad874f2d59f11430
+  $sinsert_$sgo4 ::
+    [GHC.Types.Char]
+    -> a1
+    -> Data.Map.Base.Map [GHC.Types.Char] a1
+    -> Data.Map.Base.Map [GHC.Types.Char] a1
+  {- Arity: 3, Strictness: <S,1*U><S,1*U><S,1*U> -}
+0c46edc9d92b4a7e9984123d0ea9503a
+  $slookup1 ::
+    GHC.Base.String
+    -> Data.Map.Base.Map GHC.Base.String a -> GHC.Base.Maybe a
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U> -}
+c8d9a1246f9c6c08ff92ddda04896c22
+  $winsertAsterik ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int# -> GHC.Prim.Int# -> Data.Text.Internal.Text
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>, Inline: [0] -}
+f5a6ea7b4453162ca51038b87ad55ed5
+  $winsertAsterikHelper ::
+    GHC.Prim.Char# -> GHC.Types.Char -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,U><L,U(U)>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Char# ww1 :: GHC.Types.Char ->
+                 case {__pkg_ccall base-4.8.2.0 u_iswalpha GHC.Prim.Int#
+                                                           -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                           -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                                                 GHC.Prim.Int# #)}
+                        (GHC.Prim.ord# ww)
+                        GHC.Prim.realWorld# of wild1 { (#,#) ds ds1 ->
+                 let {
+                   $j3 :: GHC.Prim.Void# -> GHC.Types.Bool
+                     {- Arity: 1, Strictness: <L,A> -}
+                   = \ w :: GHC.Prim.Void#[OneShot] ->
+                     let {
+                       $j4 :: GHC.Prim.Void# -> GHC.Types.Bool
+                         {- Arity: 1, Strictness: <L,A> -}
+                       = \ w1 :: GHC.Prim.Void#[OneShot] ->
+                         case ww of wild {
+                           DEFAULT
+                           -> case ww1 of wild2 { GHC.Types.C# c1 ->
+                              case c1 of wild3 {
+                                DEFAULT -> GHC.Types.False
+                                '('
+                                -> GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.leWord#
+                                        (GHC.Prim.int2Word# (GHC.Prim.-# (GHC.Prim.ord# wild) 48))
+                                        __word 9) } }
+                           ')'
+                           -> case ww1 of wild2 { GHC.Types.C# c# ->
+                              case {__pkg_ccall base-4.8.2.0 u_iswalnum GHC.Prim.Int#
+                                                                        -> GHC.Prim.State#
+                                                                             GHC.Prim.RealWorld
+                                                                        -> (# GHC.Prim.State#
+                                                                                GHC.Prim.RealWorld,
+                                                                              GHC.Prim.Int# #)}
+                                     (GHC.Prim.ord# c#)
+                                     GHC.Prim.realWorld# of wild3 { (#,#) ds2 ds3 ->
+                              case ds3 of wild4 {
+                                DEFAULT -> GHC.Types.True
+                                0
+                                -> case c# of wild5 {
+                                     DEFAULT -> GHC.Types.False '(' -> GHC.Types.True } } } } }
+                     } in
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.leWord#
+                               (GHC.Prim.int2Word# (GHC.Prim.-# (GHC.Prim.ord# ww) 48))
+                               __word 9) of wild {
+                       GHC.Types.False -> $j4 GHC.Prim.void#
+                       GHC.Types.True
+                       -> case ww1 of wild2 { GHC.Types.C# c# ->
+                          case {__pkg_ccall base-4.8.2.0 u_iswalpha GHC.Prim.Int#
+                                                                    -> GHC.Prim.State#
+                                                                         GHC.Prim.RealWorld
+                                                                    -> (# GHC.Prim.State#
+                                                                            GHC.Prim.RealWorld,
+                                                                          GHC.Prim.Int# #)}
+                                 (GHC.Prim.ord# c#)
+                                 GHC.Prim.realWorld# of wild3 { (#,#) ds2 ds3 ->
+                          case ds3 of wild4 {
+                            DEFAULT -> GHC.Types.True 0 -> $j4 GHC.Prim.void# } } } }
+                 } in
+                 case ds1 of wild2 {
+                   DEFAULT
+                   -> case ww1 of wild { GHC.Types.C# c# ->
+                      case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.leWord#
+                                (GHC.Prim.int2Word# (GHC.Prim.-# (GHC.Prim.ord# c#) 48))
+                                __word 9) of wild4 {
+                        GHC.Types.False -> $j3 GHC.Prim.void#
+                        GHC.Types.True -> GHC.Types.True } }
+                   0 -> $j3 GHC.Prim.void# } }) -}
+346e82237beb6e9f464ed617dc028911
+  $wpoly_go4 ::
+    GHC.Prim.Int#
+    -> Data.Map.Base.Map [GHC.Types.Char] a
+    -> [([GHC.Types.Char], a)]
+    -> Data.Map.Base.Map [GHC.Types.Char] a
+  {- Arity: 3, Strictness: <L,U><S,1*U><S,1*U>, Inline: [0] -}
+0fe56493a8496c47f0dad51d08991ba5
+  asterik :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "*"#) -}
+7cdf835aa0c5afd9f4a49c734dc0cee5
+  caret :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "^"#) -}
+2f867fcfe6fe1832aacb8c804434b2a6
+  comma :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# ","#) -}
+1813a2ebb78b7142a9c405ab017c2556
+  commandLookUp ::
+    GHC.Base.String
+    -> Text.LaTeX.Base.Syntax.LaTeX -> Data.Text.Internal.Text
+  {- Arity: 2, Strictness: <S,U><L,U> -}
+7765297b0083f26654c8cf3e4ddcbcd9
+  commandLookUpArgs ::
+    GHC.Base.String
+    -> [Text.LaTeX.Base.Syntax.TeXArg]
+    -> Text.LaTeX.Base.Syntax.LaTeX
+    -> Data.Text.Internal.Text
+  {- Arity: 3, Strictness: <S,1*U><L,U><L,U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ s :: GHC.Base.String
+                   args :: [Text.LaTeX.Base.Syntax.TeXArg]
+                   latex :: Text.LaTeX.Base.Syntax.LaTeX ->
+                 case Sage.$slookup1
+                        @ ([Text.LaTeX.Base.Syntax.TeXArg]
+                           -> Text.LaTeX.Base.Syntax.LaTeX -> Data.Text.Internal.Text)
+                        s
+                        Sage.sageCommandMapArgs of wild {
+                   GHC.Base.Nothing -> Sage.createSage latex
+                   GHC.Base.Just command -> command args latex }) -}
+c4dd12a19c1a5d904deb6402cddcea7c
+  createSage ::
+    Text.LaTeX.Base.Syntax.LaTeX -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*U> -}
+b50fdbd59eaf783e4476426284818f3a
+  forwardSlash :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "/"#) -}
+61a3fb8f7158ce8fd688e2aca21b7950
+  insertAsterik :: Data.Text.Internal.Text -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*U(U,U,U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: Data.Text.Internal.Text ->
+                 case w of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                 Sage.$winsertAsterik ww1 ww2 ww3 }) -}
+956ec2e9a705939e43cca5383468f849
+  insertAsterikHelper ::
+    (GHC.Types.Char, GHC.Types.Char) -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U(U),U(U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: (GHC.Types.Char, GHC.Types.Char) ->
+                 case w of ww { (,) ww1 ww2 ->
+                 case ww1 of ww3 { GHC.Types.C# ww4 ->
+                 Sage.$winsertAsterikHelper ww4 ww2 } }) -}
+de52d3edf47b6bb0a311d95788a1c450
+  leftBracket :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "["#) -}
+76fe43ad172aded556d11b951b22e668
+  leftParen :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "("#) -}
+f2acfebd7e6880c1320c534173075041
+  one :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "1"#) -}
+14b1aae829c93fd3e2daf88ecfe908cf
+  rightBracket :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "]"#) -}
+c52425bea2e1ec41d2620eac03f75cca
+  rightParen :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# ")"#) -}
+5e784bd4d50573413f2c794224b07f99
+  sageCommandMap ::
+    Data.Map.Base.Map
+      [GHC.Types.Char]
+      (Text.LaTeX.Base.Syntax.LaTeX -> Data.Text.Internal.Text)
+e103986fb2baf6dbb47ba5201721f0bf
+  sageCommandMapArgs ::
+    Data.Map.Base.Map
+      [GHC.Types.Char]
+      ([Text.LaTeX.Base.Syntax.TeXArg]
+       -> Text.LaTeX.Base.Syntax.LaTeX -> Data.Text.Internal.Text)
+48f7afa1261c26d15a7b5fec1d9087c0
+  sageDerive ::
+    [Text.LaTeX.Base.Syntax.TeXArg]
+    -> Text.LaTeX.Base.Syntax.LaTeX -> Data.Text.Internal.Text
+  {- Arity: 2, Strictness: <S,1*U><L,1*U> -}
+6e67d33b4a74a9ab129f813771f3296c
+  sageFrac ::
+    [Text.LaTeX.Base.Syntax.TeXArg]
+    -> Text.LaTeX.Base.Syntax.LaTeX -> Data.Text.Internal.Text
+  {- Arity: 2, Strictness: <S,1*U><L,1*U> -}
+b0af9fd9bd0faefcf270b615742b8a12
+  sageIntegral ::
+    Text.LaTeX.Base.Syntax.LaTeX -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,U> -}
+02f38fd6e895bca6a1164921bdff58e4
+  sageLog :: Text.LaTeX.Base.Syntax.LaTeX -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*U> -}
+392b1dc2e070bdfc040e785434ba192b
+  sageMatrix ::
+    [Text.LaTeX.Base.Syntax.TeXArg]
+    -> Text.LaTeX.Base.Syntax.LaTeX -> Data.Text.Internal.Text
+  {- Arity: 2, Strictness: <S,1*U><L,1*U> -}
+91f6bf0a65f8a8f246db7f2c3455b1b6
+  sageRoot ::
+    [Text.LaTeX.Base.Syntax.TeXArg]
+    -> Text.LaTeX.Base.Syntax.LaTeX -> Data.Text.Internal.Text
+  {- Arity: 2, Strictness: <S,1*U><L,1*U> -}
+"SPEC/Sage fromList @ [Char] _" [ALWAYS] forall @ a
+                                                $dOrd :: GHC.Classes.Ord [GHC.Types.Char]
+  Data.Map.Strict.fromList @ [GHC.Types.Char] @ a $dOrd
+  = Sage.$sfromList @ a
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

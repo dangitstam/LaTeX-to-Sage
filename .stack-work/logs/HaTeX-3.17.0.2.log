@@ -1,0 +1,41 @@
+Configuring HaTeX-3.17.0.2...
+Building HaTeX-3.17.0.2...
+Preprocessing library HaTeX-3.17.0.2...
+[ 1 of 34] Compiling Text.LaTeX.Packages.Trees ( Text/LaTeX/Packages/Trees.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/Trees.o )
+[ 2 of 34] Compiling Paths_HaTeX      ( .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/autogen/Paths_HaTeX.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Paths_HaTeX.o )
+[ 3 of 34] Compiling Text.LaTeX.Base.Syntax ( Text/LaTeX/Base/Syntax.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Base/Syntax.o )
+[ 4 of 34] Compiling Text.LaTeX.Base.Class ( Text/LaTeX/Base/Class.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Base/Class.o )
+[ 5 of 34] Compiling Text.LaTeX.Base.Warnings ( Text/LaTeX/Base/Warnings.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Base/Warnings.o )
+[ 6 of 34] Compiling Text.LaTeX.Base.Render ( Text/LaTeX/Base/Render.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Base/Render.o )
+[ 7 of 34] Compiling Text.LaTeX.Base.Types ( Text/LaTeX/Base/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Base/Types.o )
+[ 8 of 34] Compiling Text.LaTeX.Packages.AMSFonts ( Text/LaTeX/Packages/AMSFonts.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/AMSFonts.o )
+[ 9 of 34] Compiling Text.LaTeX.Packages.AMSSymb ( Text/LaTeX/Packages/AMSSymb.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/AMSSymb.o )
+[10 of 34] Compiling Text.LaTeX.Packages.Inputenc ( Text/LaTeX/Packages/Inputenc.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/Inputenc.o )
+[11 of 34] Compiling Text.LaTeX.Base.Writer ( Text/LaTeX/Base/Writer.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Base/Writer.o )
+[12 of 34] Compiling Text.LaTeX.Base.Texy ( Text/LaTeX/Base/Texy.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Base/Texy.o )
+[13 of 34] Compiling Text.LaTeX.Base.Commands ( Text/LaTeX/Base/Commands.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Base/Commands.o )
+[14 of 34] Compiling Text.LaTeX.Packages.Fancyhdr ( Text/LaTeX/Packages/Fancyhdr.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/Fancyhdr.o )
+[15 of 34] Compiling Text.LaTeX.Base.Parser ( Text/LaTeX/Base/Parser.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Base/Parser.o )
+[16 of 34] Compiling Text.LaTeX.Base.Pretty ( Text/LaTeX/Base/Pretty.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Base/Pretty.o )
+[17 of 34] Compiling Text.LaTeX.Packages.AMSThm ( Text/LaTeX/Packages/AMSThm.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/AMSThm.o )
+[18 of 34] Compiling Text.LaTeX.Packages.Beamer ( Text/LaTeX/Packages/Beamer.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/Beamer.o )
+[19 of 34] Compiling Text.LaTeX.Packages.Color ( Text/LaTeX/Packages/Color.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/Color.o )
+[20 of 34] Compiling Text.LaTeX.Packages.Graphicx ( Text/LaTeX/Packages/Graphicx.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/Graphicx.o )
+[21 of 34] Compiling Text.LaTeX.Packages.Hyperref ( Text/LaTeX/Packages/Hyperref.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/Hyperref.o )
+[22 of 34] Compiling Text.LaTeX.Packages.Relsize ( Text/LaTeX/Packages/Relsize.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/Relsize.o )
+[23 of 34] Compiling Text.LaTeX.Packages.TikZ.Syntax ( Text/LaTeX/Packages/TikZ/Syntax.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/TikZ/Syntax.o )
+[24 of 34] Compiling Text.LaTeX.Packages.TikZ.PathBuilder ( Text/LaTeX/Packages/TikZ/PathBuilder.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/TikZ/PathBuilder.o )
+[25 of 34] Compiling Text.LaTeX.Packages.TikZ ( Text/LaTeX/Packages/TikZ.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/TikZ.o )
+[26 of 34] Compiling Text.LaTeX.Packages.TikZ.Simple ( Text/LaTeX/Packages/TikZ/Simple.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/TikZ/Simple.o )
+[27 of 34] Compiling Text.LaTeX.Base  ( Text/LaTeX/Base.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Base.o )
+[28 of 34] Compiling Text.LaTeX.Packages.AMSMath ( Text/LaTeX/Packages/AMSMath.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/AMSMath.o )
+[29 of 34] Compiling Text.LaTeX.Packages.Babel ( Text/LaTeX/Packages/Babel.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/Babel.o )
+[30 of 34] Compiling Text.LaTeX.Packages.Fontenc ( Text/LaTeX/Packages/Fontenc.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/Fontenc.o )
+[31 of 34] Compiling Text.LaTeX.Packages.QRCode ( Text/LaTeX/Packages/QRCode.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/QRCode.o )
+[32 of 34] Compiling Text.LaTeX.Packages.Trees.Qtree ( Text/LaTeX/Packages/Trees/Qtree.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/Trees/Qtree.o )
+[33 of 34] Compiling Text.LaTeX       ( Text/LaTeX.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX.o )
+[34 of 34] Compiling Text.LaTeX.Packages.Geometry ( Text/LaTeX/Packages/Geometry.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/LaTeX/Packages/Geometry.o )
+In-place registering HaTeX-3.17.0.2...
+Installing library in
+/Users/dangitstam/.stack/snapshots/x86_64-osx/lts-6.10/7.10.3/lib/x86_64-osx-ghc-7.10.3/HaTeX-3.17.0.2-IZKTvXm97te1FoXjuFGoGa
+Registering HaTeX-3.17.0.2...
